@@ -34,5 +34,5 @@
 			   (carrying ?m ?s)
 			   (usable ?s)
 			   (loose ?n))
-        :effect (and (not (loose ?n))(not (usable ?s)) (tightened ?n)))
+        :effect (and (not (loose ?n)) (not (usable ?s)) (tightened ?n)))
 )
